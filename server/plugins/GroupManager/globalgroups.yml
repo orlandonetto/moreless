@@ -19,6 +19,23 @@ groups:
   g:groupmanager_default:
     permissions:
     - groupmanager.notify.self
+    - ChestShop.shop.*
+    - houseguard.all
+    - houseguard.build
+    - houseguard.buy
+    - houseguard.sell
+    - houseguard.expand
+    - houseguard.del
+    - houseguard.addfriend
+    - houseguard.delfriend
+    - houseguard.rename
+    - houseguard.pvp
+    - houseguard.msg
+    - houseguard.list
+    - houseguard.info
+    - houseguard.prices
+    - houseguard.tp
+    - houseguard.admin
 
   g:groupmanager_moderator:
     permissions:
@@ -154,7 +171,22 @@ groups:
     - essentials.warp.list
     - essentials.worth
     - ChestShop.shop.*
-    - houseguard.*
+    - houseguard.all
+    - houseguard.build
+    - houseguard.buy
+    - houseguard.sell
+    - houseguard.expand
+    - houseguard.del
+    - houseguard.addfriend
+    - houseguard.delfriend
+    - houseguard.rename
+    - houseguard.pvp
+    - houseguard.msg
+    - houseguard.list
+    - houseguard.info
+    - houseguard.prices
+    - houseguard.tp
+    - houseguard.admin
 
   g:essentials_builder:
     permissions:
