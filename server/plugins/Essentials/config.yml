@@ -47,10 +47,10 @@ change-displayname: true
 teleport-safety: true
 
 # The delay, in seconds, required between /home, /tp, etc.
-teleport-cooldown: 0
+teleport-cooldown: 30
 
 # The delay, in seconds, before a user actually teleports.  If the user moves or gets attacked in this timeframe, the teleport never occurs.
-teleport-delay: 0
+teleport-delay: 5
 
 # The delay, in seconds, a player can't be attacked by other players after they have been teleported by a command.
 # This will also prevent the player attacking other players.
@@ -104,8 +104,14 @@ overridden-commands:
 # You should not have to disable commands used in other plugins, they will automatically get priority.
 # See http://wiki.bukkit.org/Commands.yml#aliases to map commands to other plugins.
 disabled-commands:
-#  - nick
-#  - clear
+  - clear
+  - back
+  - back.ondeath
+  - clearinventory
+  - home.others
+  - mail
+  - mail.send
+  - heal
 
 # These commands will be shown to players with socialSpy enabled.
 # You can add commands from other plugins you may want to track or
@@ -228,8 +234,8 @@ player-commands:
 # Set delay to -1 for a one time kit.
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
-  tools:
-    delay: 10
+  nb:
+    delay: 30
     items:
       - 272 1
       - 273 1
@@ -238,9 +244,6 @@ kits:
   dtools:
     delay: 600
     items:
-      - 278 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
-      - 277 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
-      - 298 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
       - 279:780 1
   notch:
     delay: 6000
@@ -266,8 +269,8 @@ kits:
 enabledSigns:
   #- color
   #- balance
-  #- buy
-  #- sell
+  - buy
+  - sell
   #- trade
   #- free
   #- disposal
@@ -279,7 +282,7 @@ enabledSigns:
   #- heal
   #- info
   #- spawnmob
-  #- repair
+  - repair
   #- time
   #- weather
 
@@ -410,10 +413,10 @@ register-back-in-listener: false
 login-attack-delay: 5
 
 #Set the max fly speed, values range from 0.1 to 1.0
-max-fly-speed: 0.8
+max-fly-speed: 1.0
 
 #Set the max walk speed, values range from 0.1 to 1.0
-max-walk-speed: 0.8
+max-walk-speed: 1.0
 
 #Set the maximum amount of mail that can be sent within a minute.
 mails-per-minute: 1000
@@ -476,6 +479,8 @@ command-costs:
   #example: 1000
   # /kit tools costs $1500 PER USE
   #kit-tools: 1500
+  # /call costs $100 PER USE
+  call: 50
 
 # Set this to a currency symbol you want to use.
 # Remember, if you want to use special characters in this document, 
@@ -488,7 +493,7 @@ max-money: 10000000000000
 
 # Set the minimum amount of money a player can have (must be above the negative of max-money).
 # Setting this to 0, will disable overdrafts/loans completely.  Users need 'essentials.eco.loan' perm to go below 0.
-min-money: -10000
+min-money: 0
 
 # Enable this to log all interactions with trade/buy/sell signs and sell command.
 economy-log-enabled: false
@@ -724,7 +729,7 @@ newbies:
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost and permissions, and will not trigger the kit delay.
   #kit: ''
-  kit: tools
+  kit: ''
 
 # Set this to lowest, if you want Multiverse to handle the respawning.
 # Set this to high, if you want EssentialsSpawn to handle the respawning.
