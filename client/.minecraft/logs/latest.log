@@ -1,0 +1,44 @@
+[00:41:37] [main/INFO]: Setting user: Default
+[00:41:38] [Client thread/INFO]: LWJGL Version: 2.9.1
+[00:41:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Chocolate Quest, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:Infernal Mobs, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:DrCyano's Lootable Bodies, FMLFileResourcePack:MapWriter, FMLFileResourcePack:More Furnaces, FMLFileResourcePack:Multi Page Chest, FMLFileResourcePack:Rei's Minimap
+[00:41:46] [Sound Library Loader/INFO]: Sound engine started
+[00:41:47] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[00:41:47] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[00:41:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Chocolate Quest, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:Infernal Mobs, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:DrCyano's Lootable Bodies, FMLFileResourcePack:MapWriter, FMLFileResourcePack:More Furnaces, FMLFileResourcePack:Multi Page Chest, FMLFileResourcePack:Rei's Minimap
+[00:41:48] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:41:48] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[00:41:49] [Sound Library Loader/INFO]: Sound engine started
+[00:42:56] [Client thread/INFO]: Connecting to localhost, 25565
+[00:43:26] [Client thread/INFO]: Connecting to localhost, 25565
+[00:43:27] [Client thread/INFO]: [CHAT] Default joined the game.
+[00:43:27] [Client thread/INFO]: [CHAT] Welcome Default to the server!
+[00:43:27] [Client thread/INFO]: [CHAT] Damage Indicators was unable to check for updates!
+[00:43:27] [Client thread/INFO]: [CHAT] InvTweaks: C:\Users\Orlando Netto\AppData\Roaming\.minecraft\config\InvTweaksRules.txt faltando, criando um padrão.
+[00:43:27] [Client thread/INFO]: [CHAT] InvTweaks: C:\Users\Orlando Netto\AppData\Roaming\.minecraft\config\InvTweaksTree.txt faltando, criando um padrão.
+[00:43:27] [Client thread/INFO]: [CHAT] InvTweaks: Configuração carregada.
+[00:43:32] [Client thread/INFO]: [CHAT] §e[Rei's Minimap] enabled: cavemapping
+[00:43:32] [Client thread/INFO]: [CHAT] §e[Rei's Minimap] enabled: entities radar (§ePlayer, §eAnimal, §eMob, §eSlime, §eSquid, §eLiving)
+[00:44:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Chocolate Quest, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:Infernal Mobs, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:DrCyano's Lootable Bodies, FMLFileResourcePack:MapWriter, FMLFileResourcePack:More Furnaces, FMLFileResourcePack:Multi Page Chest, FMLFileResourcePack:Rei's Minimap
+[00:44:41] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:44:41] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[00:44:42] [Sound Library Loader/INFO]: Sound engine started
+[00:48:54] [Client thread/INFO]: Selecting effect minecraft:shaders/post/notch.json
+[00:48:55] [Client thread/INFO]: Selecting effect minecraft:shaders/post/fxaa.json
+[00:48:55] [Client thread/INFO]: Selecting effect minecraft:shaders/post/art.json
+[00:48:55] [Client thread/WARN]: Could not find uniform named LumaRamp in the specified shader program.
+[00:48:55] [Client thread/WARN]: Could not find uniform named InSize in the specified shader program.
+[00:48:55] [Client thread/INFO]: Selecting effect minecraft:shaders/post/bumpy.json
+[00:48:56] [Client thread/WARN]: Could not find uniform named OutSize in the specified shader program.
+[00:48:56] [Client thread/INFO]: Selecting effect minecraft:shaders/post/blobs2.json
+[00:48:56] [Client thread/INFO]: Selecting effect minecraft:shaders/post/pencil.json
+[00:49:03] [Client thread/INFO]: Selecting effect minecraft:shaders/post/color_convolve.json
+[00:49:03] [Client thread/WARN]: Could not find uniform named InSize in the specified shader program.
+[00:49:25] [Client thread/INFO]: [CHAT] [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:50:05] [Client thread/INFO]: [CHAT] [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:50:25] [Client thread/INFO]: [CHAT] [ClearLag] Removed 11 Entities!
+[00:53:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Chocolate Quest, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:Infernal Mobs, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:DrCyano's Lootable Bodies, FMLFileResourcePack:MapWriter, FMLFileResourcePack:More Furnaces, FMLFileResourcePack:Multi Page Chest, FMLFileResourcePack:Rei's Minimap
+[00:53:24] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:53:24] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[00:53:25] [Client thread/WARN]: Could not find uniform named InSize in the specified shader program.
+[00:53:25] [Sound Library Loader/INFO]: Sound engine started
+[00:54:24] [Client thread/INFO]: Stopping!
